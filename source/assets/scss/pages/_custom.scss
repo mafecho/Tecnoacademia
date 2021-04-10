@@ -252,3 +252,93 @@ ol.lista > li.mas:before {
 .border-bottom-orange {
     border-bottom: 5px solid $dark-orange;    
 }
+
+.naranja-oscuro{
+    background-color: #DB9600;
+}
+
+.naranja-claro{
+    background-color: #FFBE4A;
+}
+
+.bg-gris{
+    background-color: #EDF1F4;
+}
+
+.bg-verde{
+    background-color: #E2EED7;
+}
+.text-color-dark {
+    color: #DB9600;
+}
+
+.recuadro-border {
+    border-radius: 1.5rem;
+}
+
+.h-300{
+    height: 300px;
+}
+
+.h-400{
+    height: 400px;
+}
+
+.h-500{
+    height: 500px;
+}
+
+.h-600{
+    height: 600px;
+}
+
+.h-1028{
+    height: 1028px;
+}
+
+.h-1228{
+    height: 1228px;
+}
+
+.mt-70{
+    margin-top: 70px;
+}
+
+.text-line-card {
+    border: 1px solid #5E8775;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.list {
+    width: 100%;
+    display: flex !important;
+}
+
+.list__item__icon {
+    position: relative;
+    width: 15px;
+    margin-right: 0.65rem;
+    margin-top: -3px;
+}
+
+.list__item__icon img {
+    width: 10px;
+    vertical-align: middle;
+}
+
+.list__txt p:first-child, .list__txt h3:first-child {
+    margin-top: 0px;
+}
+
+.position-url-1{
+    margin-top: -70% !important;
+}
+
+.position-url-2{
+    margin-top: -65% !important;
+}
+
+.position-url-3{
+    margin-top: -60% !important;
+}

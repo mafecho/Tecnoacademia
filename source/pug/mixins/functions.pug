@@ -6,24 +6,8 @@ mixin pageHeader(tituloTema, srcImagen, pagina)
 
             .col-12.col-lg-6
 
-                h3#curso-titulo-componente.curso-subtitulo ECOSISTEMA DE RECURSOS EDUCATIVOS
-                h1#curso-titulo-tema.curso-titulo Base ECORED
-
                 .brand-line-primary
 
-                if pagina == 'main'
-
-                    .keywords
-                        span.badge.badge-pill.badge-light.mr-2 #Ecosistema
-                        span.badge.badge-pill.badge-light.mr-2 #Base
-                        span.badge.badge-pill.badge-light.mr-2 #ECORED
-
-                    .barra-dots.mt-5
-                        img.img-fluid(src='assets/images/header/icon_dots.svg', alt='alt')
-
-                else 
-                    p.curso-descripcion Equipo de Ecosistema de recursos educativos SENA encargado del desarrollo y rediseño de cursos virtuales de aprendizaje para el SENA.
-        
                 if pagina == 'home'
                     a.curso-btn-iniciar.btn.btn-light(href="main.html")
                         span Iniciar curso

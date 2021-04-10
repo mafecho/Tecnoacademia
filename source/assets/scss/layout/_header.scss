@@ -27,7 +27,7 @@
 .page-header-textura{
     .page-textura {
         padding: 2rem 1rem;
-        background: url(../images/header/header_pattern.svg) scroll bottom center repeat !important;
+        background: url(../images/header/header_pattern.svg) scroll bottom center no-repeat !important;
     }
 }
 
@@ -129,5 +129,55 @@
         }
     }
 }
+
+
+
+
+.header {
+    
+    margin: 3rem 0;
+    position: relative;
+    
+    h1 {
+    font-size: 1.1*$h1-font-size;
+    }
+    
+    h2 {
+    font-size: 1.2*$h2-font-size;
+    }
+    
+    h3 {
+    font-size: 1.2*$h3-font-size;
+    }
+    
+    h4 {
+    font-size: 1.2*$h4-font-size;
+    }
+    
+    h5 {
+    font-size: 1.2*$h5-font-size;
+    }
+    &.-recuadro {
+    color: #000000;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 700;
+    
+    span.number {
+    background-color: $brand-color-secondary;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    margin-right: 1.5rem;
+    line-height: 55px;
+    text-align: center;
+    }
+    }
+    }
+    
+    
+    
+
 
 
