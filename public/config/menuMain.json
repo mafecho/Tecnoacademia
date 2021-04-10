@@ -16,28 +16,28 @@
     "id": 2,
     "icon": "fa fa-play-circle",
     "slug": "tema-1",
-    "title": "1. Componentes",
+    "title": "1. Historia de la robótica",
     "path": "pages/tema-1.html"
   },
   { 
     "id": 3,
     "icon": "fa fa-play-circle",
     "slug": "tema-2",
-    "title": "2. Componentes",
+    "title": "2. Componentes de un robot y tipos",
     "path": "pages/tema-2.html"
   },
   { 
     "id": 4,
     "icon": "fa fa-play-circle",
     "slug": "tema-3",
-    "title": "3. Componentes",
+    "title": "3. Disciplinas Asociadas a la Robótica",
     "path": "pages/tema-3.html"
   },
   { 
     "id": 5,
     "icon": "fa fa-play-circle",
     "slug": "tema-4",
-    "title": "4. Componentes",
+    "title": "4. Automatización en la Agroindustria",
     "path": "pages/tema-4.html"
   }
 ]

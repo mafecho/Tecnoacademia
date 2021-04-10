@@ -120,12 +120,13 @@
 
         span.number {
             background-color: $brand-color-light;
-            color: #fff;
+            color: red;
             width: 55px;
             height: 55px;
             margin-right: 1.5rem;
             line-height: 55px;
             text-align: center;
+            border-radius: 15px 50px 30px;
         }
     }
 }
@@ -157,24 +158,37 @@
     h5 {
     font-size: 1.2*$h5-font-size;
     }
+
     &.-recuadro {
-    color: #000000;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    font-weight: 700;
-    
-    span.number {
-    background-color: $brand-color-secondary;
-    color: #fff;
-    width: 55px;
-    height: 55px;
-    margin-right: 1.5rem;
-    line-height: 55px;
-    text-align: center;
+        color: #000000;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-weight: 700;
+        
+        span.number {
+            background-color: $brand-color-secondary;
+            color: #fff;
+            width: 55px;
+            height: 55px;
+            margin-right: 1.5rem;
+            line-height: 55px;
+            text-align: center;
+            border-radius: 15px 50px 30px;
+        }
+        
+        span.title {
+            background-color: $brand-color-secondary;
+            color: #fff;
+            width: 55px;
+            height: 55px;
+            margin-right: 1.5rem;
+            line-height: 55px;
+            text-align: center;
+            border-radius: 15px 50px 30px;
+        }
     }
-    }
-    }
+}
     
     
     
