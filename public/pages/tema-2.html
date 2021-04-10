@@ -3,8 +3,111 @@
         <h1><span class="number px-2 py-2">2.0</span> Componentes de un robot y tipos</h1>
     </div>
     <div class="jumbotron bg-white">
-        <div class="header -recuadro mt-0 mb-0" id="tema-1_1">
-            <h2><span class="number px-2 py-2">2.1</span> Tipos de sistemas productivo agrícola</h2>
+        <div class="row my-5">
+            <div class="col-12 col-lg-6">
+                <p>Un robot es una máquina controlada por un ordenador y programada para moverse, manipular objetos y realizar trabajos a la vez que interacciona con su entorno. Los robots son capaces de realizar tareas repetitivas de forma más rápida, barata y precisa que los seres humanos. Todo robot esta compuesto de las siguientes partes o elementos</p>
+            </div>
+            <div class="col-12 col-lg-6"><img class="img-fluid" src="assets/images/pages/tema-2/imagen1.png" alt="" /></div>
+            <div class="header -recuadro mt-0 mb-0" id="tema-1_1">
+                <h2><span class="number px-2 py-2">2.1</span> Partes de un robot</h2>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-8">
+                    <h3><strong>• Chasis o esqueleto del robot</strong></h3>
+                    <p>Esta parte del robot es la base para soportar las otras partes de un robot; de forma similar a un vehículo, un robot necesita una estructura rígida donde se puedan ubicar las diferentes piezas, como sensores, servomotores, controlador, baterías de alimentación y demás componentes. Dependiendo de la utilidad del robot cambia la forma de su esqueleto, por ejemplo, es muy diferente el chasis de un robot aspirador que tiene una forma circular, al chasis de un robot militar.</p>
+                </div>
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen2.png" alt="" /></div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-12">
+                    <h3><strong>• Sensores</strong></h3>
+                    <p>Los sensores son los elementos que permiten que el robot obtenga la información necesaria de su entorno. Por ejemplo, los sensores de obstáculos permiten detectar si el robot tiene contacto con algún objeto externo. Entre los tipos de sensores más empleados en la robótica se encuentra:</p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen3.png" alt="" /></div>
+                <div class="col-12 col-lg-8">
+                    <h3> <em><strong>Sensores ultrasonidos o ultrasónicos</strong></em></h3>
+                    <p>Estos sensores envían una señal que al rebotar con los posibles obstáculos y regresar, permiten calcular la distancia a la cual se encuentra el objeto que se encuentra al frente. Por lo general estos sensores permiten detectar objetos situados en una distancia entre 0 y 6 metros. La señal recibida se envía al controlador del robot quien es el que realiza el calculo de la distancia con base en el tiempo de ida y vuelta de la señal ultrasónica enviada.</p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-8">
+                    <h3> <em><strong>Sensores de temperatura o térmicos</strong></em></h3>
+                    <p>Estos sensores son capaces de medir la temperatura de objetos que se encuentre a una distancia de incluso 2 metros. Por lo general estos sensores cuentan en su interior con una matriz de varios sensores (entre 4 y 8 sensores). Una de las ventajas de estos sensores es que permiten detectar personas por ejemplo sin necesidad de que se tenga movimiento. Estos sensores por lo general tienen un rango de medición de 180 grados centígrados.</p>
+                </div>
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen4.png" alt="" /></div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen5.png" alt="" /></div>
+                <div class="col-12 col-lg-8">
+                    <h3> <em><strong>Sensores infrarrojos</strong></em></h3>
+                    <p>Estos sensores permiten la medición de distancias con una precisión mayor que los ultrasonidos; se emplean para medir distancias de objetos a menos de 80 cms. Los sensores infrarrojos permiten que se estén continuamente realizando la medición de la distancia; para ser más exactos cada 50 milisegundos.</p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-8">
+                    <h3> <em><strong>Sensores de contacto o toque</strong></em></h3>
+                    <p>Estos sensores permiten detectar obstáculos por contacto cuando los demás sensores han fallado. Estos sensores se utilizan como detectores de final de carrera para detectar posiciones de piezas motorizadas, objetos y palancas. Permiten que los robots tengan una medida de seguridad para prevenir golpes y averías ante eventuales choques.</p>
+                </div>
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen6.png" alt="" /></div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen7.png" alt="" /></div>
+                <div class="col-12 col-lg-8">
+                    <h3> <em><strong>Sensores de gas, monóxido de carbono y humo</strong></em></h3>
+                    <p>Estos sensores permiten detectar si hay una presencia de humo o de gas combustible en concentraciones entre 10 y 12.000 ppm (partículas por millón), para el caso de humo y gas; y para el caso de monóxido de carbono permiten detectar concentraciones entre 10 y 1200 ppm.</p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-8">
+                    <h3> <em><strong>Sensores de vibración</strong></em></h3>
+                    <p>Estos sensores permiten detectar tanto la vibración como el movimiento, ya no requieren el uso de mercurio. Su funcionamiento permite pasar de abierto a cerrado o viceversa cuando se desequilibra por vibración o golpe. </p>
+                </div>
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen8.png" alt="" /></div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen9.png" alt="" /></div>
+                <div class="col-12 col-lg-8">
+                    <h3> <em><strong>Sensores de aceleración lineal</strong></em></h3>
+                    <p>Esto sensores permiten detectar cuando ocurre una velocidad o un impacto que genera fuerza mayor a 5 G +/- 1.5 G. Ayudan a detectar diferentes golpes e impactos de los robots; está conformados por una cápsula hermética que tiene un contacto normalmente abierto y se cierra si se realiza la aceleración suficiente. </p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-8">
+                    <h3> <em><strong>Sensores de temperatura</strong></em></h3>
+                    <p>Los sensores de temperatura permiten generar un cambio en el voltaje en un pin del mismo sensor, cuando ocurre un cambio de temperatura. En la mayoría de sensores se tiene una precisión de +/- 1 grados centígrados en temperatura entre 0 y 70º.</p>
+                </div>
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen10.png" alt="" /></div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen11.png" alt="" /></div>
+                <div class="col-12 col-lg-8">
+                    <h3> <em><strong>Sensores de visión</strong></em></h3>
+                    <p>Estos sensores están conformados por una cámara que captura imágenes en formato digital, junto con un programa de reconocimiento de código abierto. Sus costos han disminuido permitiendo incorporarlos en diferentes robots, que requieren detección de colores y reconocimiento de formas y objetos, para realizar aplicaciones como el seguimiento de objetos que están en movimiento.</p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-7">
+                    <h3><strong>• Actuadores o motores</strong></h3>
+                    <p>Estos motores son los más usados en aplicaciones de robótica, funcionan gracias al alineamiento de dos campos magnéticos. Entre las características para realizar la selección del motor adecuado se encuentran: </p>
+                    <p><strong>Las revoluciones por minuto o rpm:</strong> corresponde al número de vueltas o rotaciones en cada minuto.</p>
+                </div>
+                <div class="col-12 col-lg-5"><img class="img-fluid" src="assets/images/pages/tema-2/imagen12.png" alt="" /></div>
+            </div>
+            <div class="row my-5">
+                <p> <em><strong>Las revoluciones por minuto o rpm:</strong></em> corresponde al número de vueltas o rotaciones en cada minuto.</p>
+                <p><em><strong>Fuerza nominal:</strong></em> es la cantidad de fuerza que se debe aplicar a un eje que gira sobre si mismo a cierta velocidad. Los motores empleados en robótica generalmente son moto reductores, estos son motores que tienen un reductor de velocidad directamente conectados. Los motorreductores generalmente contienen un engranaje en la entrada del reductor ubicado directamente en la flecha del motor.</p>
+                <p><strong>• Cerebro del robot o controlador</strong></p>
+                <p>Los controladores de los robots son los cerebros que recogen toda la información del exterior recogida por los sensores y dependiendo del programa, realizan diferentes tareas, controlando el movimiento de los motores y definiendo el funcionamiento de los diferentes dispositivos de salida.</p>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-lg-8">
+                    <p><em><strong>Los principales tipos de controladores empleados en la actualidad son:</strong></em></p>
+                    <p><em><strong>Arduino:</strong></em> Es una plataforma que esta conformado por una tarjeta electrónica que tiene un microcontrolador que se puede reprogramar con código abierto. Al contar con diferentes pines de entrada y salida, es fácil la conexión entre los sensores, los actuadores y el microcontrolador. </p>
+                </div>
+                <div class="col-12 col-lg-4"><img class="img-fluid" src="assets/images/pages/tema-2/imagen13.png" alt="" /></div>
+            </div>
         </div>
     </div>
 </div>
