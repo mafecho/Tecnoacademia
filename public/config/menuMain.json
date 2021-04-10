@@ -1,0 +1,43 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introduccion",
+    "path": "pages/introduccion.html"     
+  },
+  { 
+    "id": 2,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-1",
+    "title": "1. Componentes",
+    "path": "pages/tema-1.html"
+  },
+  { 
+    "id": 3,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-2",
+    "title": "2. Componentes",
+    "path": "pages/tema-2.html"
+  },
+  { 
+    "id": 4,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-3",
+    "title": "3. Componentes",
+    "path": "pages/tema-3.html"
+  },
+  { 
+    "id": 5,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-4",
+    "title": "4. Componentes",
+    "path": "pages/tema-4.html"
+  }
+]
